@@ -26,7 +26,7 @@ public class sample extends baseclass {
 		fill(txtemail, "greens@gmail.com");
 		WebElement txtpass = driver2.findElement(By.id("pass"));
 		fill(txtpass, "greens");
-		WebElement clicklogin = driver2.findElement(By.id("login"));
+		WebElement clicklogin = driver2.findElement(By.name="login");
 		clicklogin.click();
 
 	}
